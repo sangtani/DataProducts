@@ -3,6 +3,7 @@ library(caret)
 library(rpart)
 library(lattice)
 library(ggplot2)
+library(e1071)
 
 data(iris)
 inTrain <- createDataPartition(y=iris$Species, p=0.7,list=FALSE)
